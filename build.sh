@@ -7,6 +7,7 @@ DEVICES=(
 	sagit
 	joan
 	cheeseburger
+	nb1
         dumpling
 )
 #####################################
