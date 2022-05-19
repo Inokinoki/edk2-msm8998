@@ -106,9 +106,15 @@
     }
 
     FILE DRIVER = 88ABF42E-EFA7-4D72-A9C8-8B29ACDCF64F {
-    SECTION DXE_DEPEX = MSM8998Pkg/Devices_Binary/wp/MpPowerDxe/MpPowerDxe.depex
-    SECTION PE32 = MSM8998Pkg/Devices_Binary/wp/MpPowerDxe/MpPowerDxe.efi
+    SECTION DXE_DEPEX = MSM8998Pkg/Devices_Binary/nb1/MpPowerDxe/MpPowerDxe.depex
+    SECTION PE32 = MSM8998Pkg/Devices_Binary/nb1/MpPowerDxe/MpPowerDxe.efi
     SECTION UI = "MpPowerDxe"
+    }
+
+    FILE DRIVER = 25ADA163-65A7-41D4-B339-73C2C1EC8C3B {
+    SECTION DXE_DEPEX = MSM8998Pkg/Devices_Binary/nb1/FIHDxe/FIHDxe.depex
+    SECTION PE32 = MSM8998Pkg/Devices_Binary/nb1/FIHDxe/FIHDxe.efi
+    SECTION UI = "FIHDxe"
     }
 
 # nb1 USB
